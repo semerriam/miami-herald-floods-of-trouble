@@ -47,7 +47,7 @@ Have questions or spot an error? Researchers seeking access to the unredacted so
 
 Use of this data is granted to researchers, journalists, and the public under an [MIT License](LICENSE).
 
-Please credit all uses to: *the Miami Herald* or *an analysis by the Miami Herald*.
+Please credit all uses to: *the Miami Herald* or *an analysis by the Miami Herald* with a link back to our reporting.
 
 ---
 
