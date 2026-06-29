@@ -4,7 +4,6 @@ South Florida's flooding crisis has intensified in recent years, driven by a com
 
 The series was part of the [Pulitzer Center's Connected Coastlines](http://pulitzercenter.org/connected-coastlines/) nationwide reporting initiative.
 
-
 ## Read the series
 
 - ['Street is lake, urgent!' Herald mapping reveals flooding blind spots](https://www.miamiherald.com/news/local/environment/climate-change/article311515845.html) — November 12, 2025
