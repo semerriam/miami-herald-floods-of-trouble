@@ -54,7 +54,7 @@ Please credit all uses to: *the Miami Herald* or *an analysis by the Miami Heral
 ### `miami_dade_data` — Miami-Dade County / City of Miami 311 flood complaints
 13,296 records | January 2016 – February 2024
 
-Miami-Dade County provided the Herald with a dataset of 13,296 service requests: 10,271 labeled "Storm Flood/Drainage" within the City of Miami and 3,025 labeled "Flooding/Standing Water - Localized" from the entirety of Miami-Dade County. While a vast majority of the requests included GPS coordinates, 27 records were manually geocoded using Google Maps. The City of Miami collected requests through the 311 Call Center, Miami.gov and Miami-Dade County web pages, ISeeChange, phone calls to City Department staff, Commissioner Offices staff, and Mayor Office staff. Some of the county-wide data is available on Miami-Dade County's Open Data Hub.
+Miami-Dade County provided the Herald with a dataset of 13,296 service requests. 10,271 service requests were labeled as “Storm Flood/Drainage” within the City of Miami and 3,025 service requests were labeled as “Flooding/Standing Water - Localized” from the entirety of Miami-Dade county. The data provided was from January 2016 to February 2024. While a vast majority of the requests included GPS coordinates, 27 records were manually geocoded using Google Maps based on the addresses provided in the data. Some of the county-wide data is available to the public on the [Miami-Dade County’s Open Data Hub](https://gis-mdc.opendata.arcgis.com/search?q=311+Service+Requests+-+Miami-Dade+County). The City of Miami communicated to the Herald that the flood-related service requests were submitted through various methods. Residents submitted requests to the 311 Call Center, [Miami.gov](https://www.miami.gov/My-Home-Neighborhood/Solve-a-Problem/Report-Flooding) and [Miami-Dade County web pages](https://www.miamidade.gov/environment/flood-complaints.asp), [ISeeChange](https://tracker.iseechange.com/miami/welcome), made phone calls to City Department staff, Commissioner Offices staff, and Mayor Office staff.
 
 | field | description |
 | --- | --- |
@@ -73,7 +73,7 @@ Miami-Dade County provided the Herald with a dataset of 13,296 service requests:
 ### `coral_gables_data` — City of Coral Gables drainage service requests
 869 records | February 2015 – December 2023
 
-In response to the Herald's public records request, the City of Coral Gables provided 877 reports related to flooding and drainage issues. Residents submitted reports through the city's online portal or by phone. The city shared records as PDF files, which were processed using optical character recognition (OCR) in Adobe Acrobat, converted to spreadsheets, geocoded with Geoapify, and analyzed in a Python notebook. Eight reports were removed because their GPS locations fell outside city boundaries or their assigned departments appeared unrelated to flooding.
+In response to the Herald’s public records request, the City of Coral Gables provided 877 reports related to flooding and drainage issues filed between February 2015 and December 2023. Residents [submitted these reports](https://www.coralgables.com/flood-protection-and-insurance) through the city’s online portal or by phone, and the city shared the resulting records in multiple PDF files. Those files were processed using optical character recognition (OCR) in Adobe Acrobat, converted into Excel spreadsheets, geocoded with [Geoapify](https://www.geoapify.com/tools/geocoding-online/) and analyzed in a Python notebook. Some reports were removed from the dataset because their GPS locations fell outside the city boundaries or their assigned departments appeared unrelated to flooding—covering issues such as internal permits, right-of-way work, and solid waste.
 
 | field | description |
 | --- | --- |
@@ -92,7 +92,7 @@ In response to the Herald's public records request, the City of Coral Gables pro
 ### `broward_data` — Broward County crowd-sourced flood reports
 923 records | October 2016 – November 2023
 
-Broward County provided the Herald a geopackage file of the county's Document the Floods dashboard, a crowd-sourced reporting tool that asks residents to log flood events in real time. The dataset included 923 reports from 827 unique locations, indicating multiple reports from some sites. Residents are asked for flood depth measurements and whether the location has flooded before. Response after response checked the box "yes, it always floods here," and measured depths in double-digit inches.
+Broward County provided the Herald a geopackage file of the county’s [Document the Floods dashboard](https://document-the-floods-bcgis.hub.arcgis.com/); the dataset included 923 reports of flooding at 827 unique locations indicating that there were multiple reports submitted from the same locations. The data covers from October 2016 to November 2023.
 
 | field | description |
 | --- | --- |
@@ -121,28 +121,10 @@ Broward County provided the Herald a geopackage file of the county's Document th
 
 ---
 
-### `ft_lauderdale_data` — City of Fort Lauderdale stormwater inspection work orders
-1,174 records | April – May 2023
-
-Through a public records request, the Herald was provided 1,174 hazard report requests from April to May 2023, when the "1,000-year flood" placed much of Fort Lauderdale underwater for days. In its pursuit of FEMA funding in the aftermath, the city went house to house inquiring about the effects of the flood event. Requests were submitted through the city's Lauderserv system. The Herald geocoded the records using the Google Maps Geocoding API.
-
-| field | description |
-| --- | --- |
-| request_id | unique identifier for the work order |
-| request_type | type of inspection or service request (all records: `Stormwater Inspection`) |
-| create_date | date and time the work order was created |
-| close_date | date and time the work order was closed or resolved |
-| address | street address of the inspection location |
-| name | full address string including city and state |
-| latitude | latitude of the inspection location |
-| longitude | longitude of the inspection location |
-
----
-
 ### `hollywood_data` — City of Hollywood flooding service requests
 317 records | July 2021 – May 2024
 
-Through a public records request, the Herald was provided a dataset of over 3,000 service requests for the City of Hollywood. Using natural language processing methods to filter to flooding-related requests, the Herald identified 317 relevant records. According to the City Clerk's office, requests were reported through Hollywood Connect, the city's portal for reporting non-emergency concerns.
+Through a public records request, the Herald was provided a dataset of over 3,000 service requests for the City of Hollywood. When filtered to requests relating to flooding and flooding-related issues, the Herald found 317 relevant requests covering a timeframe from July 2021 to May 2024. According to the City Clerk's office, requests were reported through [Hollywood Connect](https://www.hollywoodfl.org/744/Hollywood-Connect), the city's portal for reporting non-emergency concerns.
 
 | field | description |
 | --- | --- |
@@ -154,3 +136,21 @@ Through a public records request, the Herald was provided a dataset of over 3,00
 | date | date and time the request was submitted |
 | Latitude | latitude of the reported location |
 | Longitude | longitude of the reported location |
+
+---
+
+### `ft_lauderdale_data` — City of Fort Lauderdale stormwater inspection work orders
+1,174 records | April – May 2023
+
+Through a public records request, the Herald was provided a dataset of 1,174 [hazard report requests](https://gis.fortlauderdale.gov/hazardreports/) from April to May of 2023, when the “1,000-year flood” occurred, placing much of Fort Lauderdale underwater for days. The requests were submitted through the city’s [Lauderserv](https://gis.fortlauderdale.gov/lauderservgis/) system. The Herald geocoded the records provided using the Google Maps Geocoding API.
+
+| field | description |
+| --- | --- |
+| request_id | unique identifier for the work order |
+| request_type | type of inspection or service request (all records: `Stormwater Inspection`) |
+| create_date | date and time the work order was created |
+| close_date | date and time the work order was closed or resolved |
+| address | street address of the inspection location |
+| name | full address string including city and state |
+| latitude | latitude of the inspection location |
+| longitude | longitude of the inspection location |
