@@ -1,6 +1,6 @@
 # miami-herald-floods-of-trouble
 
-South Florida's flooding crisis has intensified in recent years, driven by a combination of sea level rise, aging stormwater infrastructure, and increasingly severe rain events. This repository contains the datasets behind the Miami Herald's *Floods of Trouble* series, which documented how residents across Miami-Dade and Broward counties experienced and reported flooding in their neighborhoods. The series was reported by [Alex Harris](https://www.miamiherald.com/profile/218643730/) and [Susan Merriam](https://www.miamiherald.com/profile/291545305/). 
+South Florida's flooding crisis has intensified in recent years, driven by a combination of sea level rise, aging stormwater infrastructure, and increasingly severe rain events. This repository contains the datasets behind the Miami Herald's *Floods of Trouble* series, which documented how residents across Miami-Dade and Broward counties experienced flooding in their neighborhoods. The series was reported by [Alex Harris](https://www.miamiherald.com/profile/218643730/) and [Susan Merriam](https://www.miamiherald.com/profile/291545305/). 
 
 The series was part of the [Pulitzer Center's Connected Coastlines](http://pulitzercenter.org/connected-coastlines/) nationwide reporting initiative.
 
